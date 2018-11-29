@@ -1,0 +1,5 @@
+$mega = new App\mega
+$mega = new App\Mega
+$mega->email = 'imhere'
+$mega->password = bcrypt('imhere')
+$mega->save()
